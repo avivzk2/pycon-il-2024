@@ -6,9 +6,9 @@ on:
       - main
 
 env:
-  INPUT_DIR: ${GITHUB_WORKSPACE}/website_2024/content
-  OUTPUT_DIR: ${GITHUB_WORKSPACE}/docs
-  PELICAN_CONF: ${GITHUB_WORKSPACE}/website_2024/publishconf.py
+  INPUT_DIR: $GITHUB_WORKSPACE/website_2024/content
+  OUTPUT_DIR: $GITHUB_WORKSPACE/docs
+  PELICAN_CONF: $GITHUB_WORKSPACE/website_2024/publishconf.py
 
 jobs:
   merge-build:
