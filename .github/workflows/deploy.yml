@@ -21,7 +21,7 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git fetch --all --unshallow
           git checkout release
-          git merge --no-ff main -m "Merge main into release"
+          git merge --no-ff -X theirs main -m "Merge main into release"
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
