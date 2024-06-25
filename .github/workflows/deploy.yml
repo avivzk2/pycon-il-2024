@@ -1,0 +1,55 @@
+name: Deploy Site using release branch
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  merge-build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout main branch
+        uses: actions/checkout@v3
+        with:
+          ref: main
+
+      - name: Merge main into release branch
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout release
+          git merge --no-ff main -m "Merge main into release"
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
+      - name: Install dependencies
+        run: |
+          cd website_2024/themes/PyCon-Israel-Flex/
+          npm install
+
+      - name: Build project
+        run: |
+          cd website_2024/themes/PyCon-Israel-Flex/
+          npm run build
+
+      - name: Install dependencies for make html
+        run: sudo apt-get install make
+
+      - name: Build HTML
+        run: |
+          cd website_2024/
+          make html
+
+      - name: Copy output to /docs
+        run: cp -r website_2024/output/* docs/
+
+      - name: Commit and push changes
+        run: |
+          git add ../docs/
+          git commit -m "Update /docs with latest build"
+          git push origin release
