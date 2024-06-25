@@ -6,9 +6,9 @@ on:
       - main
 
 env:
-  INPUT_DIR: ${{ GITHUB_WORKSPACE }}/website_2024/content
-  OUTPUT_DIR: ${{ GITHUB_WORKSPACE }}/docs
-  PELICAN_CONF: ${{ GITHUB_WORKSPACE }}/website_2024/publishconf.py
+  INPUT_DIR: ${{ github.workspace }}/website_2024/content
+  OUTPUT_DIR: ${{ github.workspace }}/docs
+  PELICAN_CONF: ${{ github.workspace }}/website_2024/publishconf.py
 
 jobs:
   merge-build:
@@ -83,7 +83,7 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          cd ${{ GITHUB_WORKSPACE }}
-          git add ${{ GITHUB_WORKSPACE }}/docs/
+          cd ${{ github.workspace }}
+          git add ${{ github.workspace }}/docs/
           git commit -m "Update /docs with latest build"
           git push origin release
