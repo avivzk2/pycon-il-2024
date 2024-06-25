@@ -67,14 +67,14 @@ jobs:
 
       - name: Build HTML
         run: |
-          cd website_2024/
-          make html
+          git rm -rf docs/
+          poetry run pelican website_2024/content -o docs/ -s website_2024/publishconf.py
 
-      - name: Copy output to /docs
-        run: cp -r website_2024/output/* docs/
+      # - name: Copy output to /docs
+      #   run: cp -r website_2024/output/* docs/
 
       - name: Commit and push changes
         run: |
-          git add ../docs/
+          git add docs/
           git commit -m "Update /docs with latest build"
           git push origin release
