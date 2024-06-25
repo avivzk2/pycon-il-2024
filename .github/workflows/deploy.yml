@@ -72,11 +72,11 @@ jobs:
 
       - name: Build HTML
         run: |
-          # git rm -rf ${{ OUTPUT_DIR }}
+          # git rm -rf ${{ env.OUTPUT_DIR }}
           cd website_2024/
-          poetry run pelican ${{ INPUT_DIR }} -o ${{ OUTPUT_DIR }} -s ${{ PELICAN_CONF }} -D
+          poetry run pelican ${{ env.INPUT_DIR }} -o ${{ env.OUTPUT_DIR }} -s ${{ env.PELICAN_CONF }} -D
           ls -l
-          ls -l ${{ OUTPUT_DIR }}
+          ls -l ${{ env.OUTPUT_DIR }}
 
       # - name: Copy output to /docs
       #   run: cp -r website_2024/output/* docs/
