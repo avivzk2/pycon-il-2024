@@ -72,11 +72,9 @@ jobs:
 
       - name: Build HTML
         run: |
-          # git rm -rf ${{ env.OUTPUT_DIR }}
+          git rm -rf ${{ env.OUTPUT_DIR }}
           cd website_2024/
-          poetry run pelican ${{ env.INPUT_DIR }} -o ${{ env.OUTPUT_DIR }} -s ${{ env.PELICAN_CONF }} -D
-          ls -l
-          ls -l ${{ env.OUTPUT_DIR }}
+          poetry run pelican ${{ env.INPUT_DIR }} -o ${{ env.OUTPUT_DIR }} -s ${{ env.PELICAN_CONF }}
 
       # - name: Copy output to /docs
       #   run: cp -r website_2024/output/* docs/
@@ -84,6 +82,6 @@ jobs:
       - name: Commit and push changes
         run: |
           cd ${{ github.workspace }}
-          git add ${{ github.workspace }}/docs/
+          git add ${{ env.OUTPUT_DIR }}
           git commit -m "Update /docs with latest build"
           git push origin release
