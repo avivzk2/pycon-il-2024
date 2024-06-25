@@ -72,9 +72,9 @@ jobs:
 
       - name: Build HTML
         run: |
-          git rm -rf ${GITHUB_WORKSPACE}/docs/
+          # git rm -rf ${OUTPUT_DIR}
           cd website_2024/
-          poetry run pelican ${INPUT_DIR} -o ${OUTPUT_DIR} -s ${PELICAN_CONF}
+          poetry run pelican ${INPUT_DIR} -o ${OUTPUT_DIR} -s ${PELICAN_CONF} -D
           ls -l
           ls -l ${OUTPUT_DIR}
 
