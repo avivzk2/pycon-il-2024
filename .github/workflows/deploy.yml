@@ -67,7 +67,7 @@ jobs:
 
       - name: Build HTML
         run: |
-          git rm -rf docs/
+          git rm -rf ${GITHUB_WORKSPACE}/docs/
           cd website_2024/
           poetry run pelican content -o docs/ -s publishconf.py
 
@@ -76,6 +76,7 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git add docs/
+          cd ${GITHUB_WORKSPACE}
+          git add ${GITHUB_WORKSPACE}/docs/
           git commit -m "Update /docs with latest build"
           git push origin release
