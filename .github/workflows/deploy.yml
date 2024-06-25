@@ -6,9 +6,9 @@ on:
       - main
 
 env:
-  INPUT_DIR: $GITHUB_WORKSPACE/website_2024/content
-  OUTPUT_DIR: $GITHUB_WORKSPACE/docs
-  PELICAN_CONF: $GITHUB_WORKSPACE/website_2024/publishconf.py
+  INPUT_DIR: ${{ GITHUB_WORKSPACE }}/website_2024/content
+  OUTPUT_DIR: ${{ GITHUB_WORKSPACE }}/docs
+  PELICAN_CONF: ${{ GITHUB_WORKSPACE }}/website_2024/publishconf.py
 
 jobs:
   merge-build:
@@ -72,18 +72,18 @@ jobs:
 
       - name: Build HTML
         run: |
-          # git rm -rf ${OUTPUT_DIR}
+          # git rm -rf ${{ OUTPUT_DIR }}
           cd website_2024/
-          poetry run pelican ${INPUT_DIR} -o ${OUTPUT_DIR} -s ${PELICAN_CONF} -D
+          poetry run pelican ${{ INPUT_DIR }} -o ${{ OUTPUT_DIR }} -s ${{ PELICAN_CONF }} -D
           ls -l
-          ls -l ${OUTPUT_DIR}
+          ls -l ${{ OUTPUT_DIR }}
 
       # - name: Copy output to /docs
       #   run: cp -r website_2024/output/* docs/
 
       - name: Commit and push changes
         run: |
-          cd ${GITHUB_WORKSPACE}
-          git add ${GITHUB_WORKSPACE}/docs/
+          cd ${{ GITHUB_WORKSPACE }}
+          git add ${{ GITHUB_WORKSPACE }}/docs/
           git commit -m "Update /docs with latest build"
           git push origin release
