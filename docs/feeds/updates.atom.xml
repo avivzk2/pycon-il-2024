@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>PyCon Israel 2024</title><link href="https://pycon.org.il/2024/" rel="alternate"></link><link href="https://pycon.org.il/2024/feeds/updates.atom.xml" rel="self"></link><id>https://pycon.org.il/2024/</id><updated>2024-07-25T12:30:00+03:00</updated><subtitle>PyCon Israel is a conference dedicated to the Python programming language, related technologies, and their use.</subtitle><entry><title>PyCon Israel 2024 Tickets Now Available!</title><link href="https://pycon.org.il/2024/tickets-available.html" rel="alternate"></link><published>2024-07-25T12:30:00+03:00</published><updated>2024-07-25T12:30:00+03:00</updated><author><name>PyCon Israel Team</name></author><id>tag:pycon.org.il,2024-07-25:/2024/tickets-available.html</id><summary type="html">&lt;p&gt;PyCon Israel 2024 tickets are available to buy&lt;/p&gt;</summary><content type="html">&lt;p&gt;We're happy to announce that ticket sales are now open.&lt;/p&gt;
+&lt;p&gt;But first a few important points to note:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Pricing Policy&lt;/strong&gt; - We have always strived to keep PyCon Israel
+ticket prices low, to make the conference accessible to a wide and
+diverse audience. In past years, ticket price was far below the
+conference costs per attendee (PyCon Israel is run by volunteers, and
+was never intended to make a profit). But as the majority of
+tickets ended up being purchased by companies for their employees, it
+meant that the conference was subsidizing these companies (with
+volunteer work and sponsors money).&lt;/p&gt;
+&lt;p&gt;Trying to come up with a pricing policy that makes more sense, this
+year, we’re trying a different way. Tickets purchased by companies
+will be sold at a price that reflects actual costs to the conference
+(full price - 450₪), and tickets for individuals, at a more affordable
+price (250₪). We trust conference goers not abuse this policy, and
+hope to be able to keep the lower price available for individuals.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Workshop Tickets&lt;/strong&gt; - Same as previous years, there are separate
+conference tickets (for the first day - September 16th at Cinema
+City), and Workshop tickets (for the 2nd day - at the Microsoft
+Reactor); Workshop tickets need to be purchased individually for each
+workshop. Each workshop costs 20 ILS, serving as a 'commitment
+ticket'. These tickets are not valid for the conference talks day, and
+vice versa. We will refund the cost of the commitment ticket if you
+attend the workshop. There are limited seats to each workshop, and
+while we recognize the will to secure your spot, we also ask that you
+not hold a ticket if you don’t really intend to come.&lt;/p&gt;
+&lt;p&gt;Now, go &lt;a href="https://ti.to/hamakor/pycon2024"&gt;grab your tickets&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;(edited 25/7/2024 18:00)&lt;/small&gt;&lt;/p&gt;</content><category term="announcements"></category></entry><entry><title>PyCon Israel 2024 Agenda Published</title><link href="https://pycon.org.il/2024/agenda-published.html" rel="alternate"></link><published>2024-07-21T22:45:00+03:00</published><updated>2024-07-21T22:45:00+03:00</updated><author><name>PyCon Israel Team</name></author><id>tag:pycon.org.il,2024-07-21:/2024/agenda-published.html</id><summary type="html">&lt;p&gt;The PyCon Israel 2024 agenda is out&lt;/p&gt;</summary><content type="html">&lt;p&gt;PyCon Israel is proud to present the agenda for the 2024 conference.
+This agenda is the result of long hours of work -- by the submitters
+of proposals which were chosen, and proposals which weren't;
+by &lt;a href="https://pycon.org.il/2024/meet-pyconil-reviewers.html"&gt;reviewers&lt;/a&gt;,
+and by the conference team.&lt;/p&gt;
+&lt;p&gt;The agenda includes an opening panel, 27 talks and five workshops. We
+believe it reflects our commitments to excellent content and to the
+local community.&lt;/p&gt;
+&lt;p&gt;Go &lt;a href="https://pycon.org.il/2024/pages/schedule.html"&gt;check it out&lt;/a&gt;! We expect
+tickets to be available later this week.&lt;/p&gt;</content><category term="announcements"></category></entry><entry><title>2nd Career &amp; Job Search Workshop</title><link href="https://pycon.org.il/2024/pyconil-career-workshop-2.html" rel="alternate"></link><published>2024-07-21T20:45:00+03:00</published><updated>2024-07-21T20:45:00+03:00</updated><author><name>PyCon Israel Team</name></author><id>tag:pycon.org.il,2024-07-21:/2024/pyconil-career-workshop-2.html</id><summary type="html">&lt;p&gt;On Sunday, July 28, we will host our 2nd online Career &amp;amp; Job Search workshop for Women in Computer Science. Anat Dinar-Leicaj and Orit Wasserman will speak.&lt;/p&gt;</summary><content type="html">&lt;p&gt;We're thrilled to host our 2nd online Career &amp;amp; Job Search workshop for
+Women in Computer Science! The workshops are featuring leaders in tech
+and experienced interviewers who are also mentors at PyCon Israel,
+conference speakers and orgnizers.&lt;/p&gt;
+&lt;p&gt;Providing job seekers with valuable career path insights, job search
+and interviewing tips. Our guest speakers for the next workshop: Anat
+Dinar - Leicaj &amp;amp; Orit Wasserman.&lt;/p&gt;
+&lt;p&gt;You're welcome to join us!! Sign up &lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSdpSjKNWRhNM73e2cJxIovFACCVttf71stISVp9Mhf8IyFrOg/viewform"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Title (Hebrew): &amp;quot;Women in Computer Science - Workshop on Career Management&amp;quot;. Pictures of speakers, with their names and talk topics(still Hebrew): Orit Wasserman, Distinguished Engineer, IBM, &amp;quot;On Career Paths and Job Interviews&amp;quot;; Anat Dinar-Leicaj, VP HR, Buildots, &amp;quot;Preparing for interviews at Software Companies&amp;quot;. Bottom: Sunday, July 28 2024, 7:00-9:00PM" src="https://pycon.org.il/2024/images/women-career-online-workshop-2.jpeg"&gt;&lt;/p&gt;</content><category term="related-events"></category></entry><entry><title>Meet the PyCon Israel reviewers</title><link href="https://pycon.org.il/2024/meet-pyconil-reviewers.html" rel="alternate"></link><published>2024-07-09T00:00:00+03:00</published><updated>2024-07-09T00:00:00+03:00</updated><author><name>PyCon Israel Team</name></author><id>tag:pycon.org.il,2024-07-09:/2024/meet-pyconil-reviewers.html</id><summary type="html">&lt;p&gt;Meet the PyCon Israel reviewers, who evaluated dozens of proposals to select interesting and innovative content for the conference.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Meet our PyCon Israel reviewers! Over the past month, our dedicated
+reviewers meticulously evaluated dozens of proposals with keen eyes
+and thoughtful consideration. They ensured that the talks selected for
+PyCon 2024 are not only interesting and innovative -- but also
+showcase Python-powered advancements, aligning with our core values of
+community, open-source, and diversity. Their hard work and expertise
+are the backbone of our conference. We are immensely grateful for
+their commitment and effort.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Reviewers, as listed below" src="https://pycon.org.il/2024/images/pyconil-2024-reviewers.jpeg"&gt;&lt;/p&gt;
+&lt;p&gt;From left to right, top row: Dima Kuznetsov, Aviv Zaken, Shai Berger,
+Orit Wasserman, Tom Ron, Miki Tebeka; bottom row: Tomer Brisker,
+Daniel Puterman, Eyal Fishel, Meirav Ben Izhak, Shai Rubin, Alexandra
+(Litinsky) Simanovsky Ph.D.&lt;/p&gt;
+&lt;p&gt;Thank you, reviewers, for your invaluable contributions!&lt;/p&gt;</content><category term="making-pycon"></category></entry><entry><title>First PyCon Israel Meetup at BGU</title><link href="https://pycon.org.il/2024/first-pyconil-meetup.html" rel="alternate"></link><published>2024-07-04T00:00:00+03:00</published><updated>2024-07-04T00:00:00+03:00</updated><author><name>PyCon Israel Team</name></author><id>tag:pycon.org.il,2024-07-04:/2024/first-pyconil-meetup.html</id><summary type="html">&lt;p&gt;On Tuesday, July 2, we had our first meetup at Ben Gurion University. Anat Dinar-Leicaj and Shai Berger spoke to students.&lt;/p&gt;</summary><content type="html">&lt;p&gt;On Tuesday, we had our first PyCon Israel meetup at Ben Gurion University! &lt;/p&gt;
+&lt;p&gt;Thank you Anat Dinar - Leicaj and Shai Berger for sharing your
+insights about Git, open-source projects, and the recruiting process
+at tech companies with the students of BGU. This initiative was part
+of PyCon's social responsibility activities, fostering learning and
+growth and sharing our knowledge with the community.&lt;/p&gt;</content><category term="related-events"></category></entry><entry><title>CFP Workshop</title><link href="https://pycon.org.il/2024/cfp-workshop.html" rel="alternate"></link><published>2024-05-16T00:00:00+03:00</published><updated>2024-05-16T00:00:00+03:00</updated><author><name>PyCon Israel Team</name></author><id>tag:pycon.org.il,2024-05-16:/2024/cfp-workshop.html</id><summary type="html">&lt;p&gt;Become a speaker 📢 at PyCon Israel! CFP Workshop on May 23rd at 18:30&lt;/p&gt;</summary><content type="html">&lt;h2 id="become-a-speaker-at-pycon-israel"&gt;Become a speaker  📢  at PyCon Israel!&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="decorative - hello pyconil 2024" src="https://pycon.org.il/2024/images/hello-pyconil-2024.jpeg"&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;a href="https://pycon.org.il/2024/pages/call-for-papers.html"&gt;Call For Proposals&lt;/a&gt; for Pycon 2024 is now open!&lt;/p&gt;
+&lt;p&gt;Considering submitting a talk? Join us for an online CFP Workshop on
+Thursday, May 23rd @ 18:30. Along with our experienced speakers and
+mentors - we are looking forward to sharing some tips and best
+practices on how to submit a Call For Proposals.&lt;/p&gt;
+&lt;p&gt;Sign up for the workshop &lt;a href="https://bit.ly/4dHp5K2"&gt;here&lt;/a&gt;.&lt;/p&gt;</content><category term="related-events"></category></entry></feed>
