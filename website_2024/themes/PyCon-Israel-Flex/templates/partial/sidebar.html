@@ -71,6 +71,19 @@
               </a>
             </li>
           {% endfor %}
+	  {# Blog, last of the pages, is special #}
+            <li>
+              <a target="{{ get_target(SITEURL) }}"
+                 href="{{ SITEURL }}/blog_index.html{% if not DISABLE_URL_HASH %}#{{ BLOG_SLUG }}{% endif %}">
+                {{ BLOG_TITLE }}
+              </a>
+              {% if FEED_ATOM %}
+              <a href="{{ FEED_DOMAIN }}/{{ FEED_ATOM }}" title="{{ SITENAME }} feed">
+		<i class="fa fa-rss" aria-hidden="true"></i>
+	      </a>
+	      {% endif %}
+
+            </li>
         {% endif %}
 	{% if pages and LINKS %}
 	    <li><br/></li> {# put some space between pages and links #}
